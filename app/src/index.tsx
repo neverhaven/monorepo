@@ -1,3 +1,6 @@
+import 'normalize.css';
+import './index.css';
 import { render } from 'react-dom';
+import { App } from './components/App';
 
-render(<div>Hello, world!</div>, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
